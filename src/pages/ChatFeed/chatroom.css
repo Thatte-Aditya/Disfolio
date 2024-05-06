@@ -1,0 +1,95 @@
+.chat-room{
+    width: 170vh;
+    height:90vh;
+    background-color: rgba(32,35,43,255);
+    color: white;
+}
+.msg-component{
+    /* margin: 20px; */
+    
+    /* justify-content: space-between; */
+}
+.edit-buttons{
+    display: none;
+    /* width: 50px; */
+    justify-content: space-between;
+    
+}
+.msg-component:hover > .edit-buttons {
+    display:flex;
+    width: 50px;
+    /* justify-content: space-between; */
+    margin-top: 40px;
+  
+  }
+  .msg-box-send{
+    margin-right: 50px;
+  }
+  #edit-box{
+    display: none;
+
+  }
+  .chat-bubble-send {
+    background: #A555EC;
+    color: #000 !important;
+    border-radius: 3px 20px 20px 20px;
+    display: block;
+    width: auto;
+    max-width: 500px;
+    padding: 7px 13px 7px 13px;
+    margin-left: 20px;
+   
+}
+.p-text{
+    margin:0;
+    width: auto;
+    max-width: 400px;
+    width: auto;
+    padding:0;
+    word-break: break-word;
+}
+
+/* word-break: break-all    */
+
+.chat-bubble-receive{
+    background: white;
+    color: #000 !important;
+    border-radius: 20px 3px 20px 20px;
+    display: block;
+    max-width: 100%;
+    padding: 7px 13px 7px 13px;
+    margin-right: 20px;
+}
+.message{
+    display: flex;
+    justify-content: right;
+}
+
+
+.form-control{
+    background-color: transparent;
+    /* color: white; */
+}
+.send{
+    background-color: #000;
+    border-radius:20px ;
+    width: 70%;
+}
+.send-tf{
+    background-color: #000;
+    color: white;
+    border: none;
+    width: 87%;
+    height: 40px;
+    margin-left: 20px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.send-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(32,35,43,255) ;
+    height: 10%;
+}
